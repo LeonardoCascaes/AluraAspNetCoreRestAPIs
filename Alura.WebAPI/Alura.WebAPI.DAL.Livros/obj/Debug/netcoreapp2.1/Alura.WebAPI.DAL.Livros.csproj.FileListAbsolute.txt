@@ -1,0 +1,13 @@
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\bin\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.deps.json
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\bin\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.dll
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\bin\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.pdb
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.dll
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.pdb
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.csproj.AssemblyReference.cache
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.AssemblyInfoInputs.cache
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.AssemblyInfo.cs
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.csproj.CoreCompileInputs.cache
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.csproj.CopyComplete
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.dll
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.DAL.Livros\obj\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.pdb

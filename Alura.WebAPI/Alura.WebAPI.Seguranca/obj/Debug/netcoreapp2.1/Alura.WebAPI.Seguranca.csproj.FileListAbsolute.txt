@@ -1,0 +1,10 @@
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Seguranca\bin\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.deps.json
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Seguranca\bin\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.dll
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Seguranca\bin\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.pdb
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Seguranca\obj\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.csproj.AssemblyReference.cache
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Seguranca\obj\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Seguranca\obj\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.AssemblyInfoInputs.cache
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Seguranca\obj\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.AssemblyInfo.cs
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Seguranca\obj\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.csproj.CoreCompileInputs.cache
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Seguranca\obj\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.dll
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Seguranca\obj\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.pdb

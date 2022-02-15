@@ -1,0 +1,10 @@
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Model\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.deps.json
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Model\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.dll
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Model\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.pdb
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.csproj.AssemblyReference.cache
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.AssemblyInfoInputs.cache
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.AssemblyInfo.cs
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.csproj.CoreCompileInputs.cache
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.dll
+D:\GitHub\AluraAspNetCoreRestAPIs\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.pdb
