@@ -7,10 +7,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using System;
 using Alura.WebAPI.WebApp.Formatters;
+using Alura.ListaLeitura.HttpClients;
+using System;
 
 namespace Alura.ListaLeitura.WebApp
 {
@@ -43,6 +42,11 @@ namespace Alura.ListaLeitura.WebApp
 
             services.ConfigureApplicationCookie(options => {
                 options.LoginPath = "/Usuario/Login";
+            });
+
+            services.AddHttpClient<LivroApiClient>(options =>
+            {
+                options.BaseAddress = new Uri("http://localhost:6000/api/");
             });
 
             services.AddTransient<IRepository<Livro>, RepositorioBaseEF<Livro>>();

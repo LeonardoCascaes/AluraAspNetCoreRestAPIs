@@ -19,7 +19,7 @@
     },
     "Alura.WebAPI.Api": {
       "commandName": "Project",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "api/values",
       "applicationUrl": "http://localhost:6000",
       "environmentVariables": {

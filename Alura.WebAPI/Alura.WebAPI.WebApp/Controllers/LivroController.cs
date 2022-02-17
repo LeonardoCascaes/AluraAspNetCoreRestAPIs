@@ -3,6 +3,8 @@ using Alura.ListaLeitura.Persistencia;
 using Alura.ListaLeitura.Modelos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
+using Alura.ListaLeitura.HttpClients;
 
 namespace Alura.ListaLeitura.WebApp.Controllers
 {
@@ -10,10 +12,12 @@ namespace Alura.ListaLeitura.WebApp.Controllers
     public class LivroController : Controller
     {
         private readonly IRepository<Livro> _repo;
+        private readonly LivroApiClient _livroApiClient;
 
-        public LivroController(IRepository<Livro> repository)
+        public LivroController(IRepository<Livro> repository, LivroApiClient livroApiClient)
         {
             _repo = repository;
+            _livroApiClient = livroApiClient;
         }
 
         [HttpGet]
@@ -35,12 +39,9 @@ namespace Alura.ListaLeitura.WebApp.Controllers
         }
 
         [HttpGet]
-        public IActionResult ImagemCapa(int id)
+        public async Task<IActionResult> ImagemCapa(int id)
         {
-            byte[] img = _repo.All
-                .Where(l => l.Id == id)
-                .Select(l => l.ImagemCapa)
-                .FirstOrDefault();
+            byte[] img = await _livroApiClient.GetCapaLivroAsync(id);
             if (img != null)
             {
                 return File(img, "image/png");
@@ -49,14 +50,14 @@ namespace Alura.ListaLeitura.WebApp.Controllers
         }
 
         [HttpGet]
-        public IActionResult Detalhes(int id)
+        public async Task<IActionResult> Detalhes(int id)
         {
-            var model = _repo.Find(id);
+            var model = await _livroApiClient.GetLivroAsync(id);
             if (model == null)
             {
                 return NotFound();
             }
-            return View(model.ToModel());
+            return View(model.ToUpload());
         }
 
         [HttpPost]
