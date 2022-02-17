@@ -8,7 +8,7 @@ using Lista = Alura.ListaLeitura.Modelos.ListaLeitura;
 namespace Alura.WebAPI.WebApp.Api
 {
     [ApiController]
-    [Route("[Controller]")]
+    [Route("api/[Controller]")]
     public class ListaLeituraController : ControllerBase
     {
         private readonly IRepository<Livro> _repo;

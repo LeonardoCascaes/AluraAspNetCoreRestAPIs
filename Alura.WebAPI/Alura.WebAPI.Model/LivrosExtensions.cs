@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Xml.Serialization;
 using Microsoft.AspNetCore.Http;
 
 namespace Alura.ListaLeitura.Modelos
@@ -33,6 +34,7 @@ namespace Alura.ListaLeitura.Modelos
             };
         }
 
+        
         public static LivroApi ToApi(this Livro livro)
         {
             return new LivroApi
