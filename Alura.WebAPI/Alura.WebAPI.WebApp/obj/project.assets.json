@@ -4481,21 +4481,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Alura.WebAPI.DAL.Usuarios/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Identity": "2.1.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.1.0",
-          "Microsoft.EntityFrameworkCore.Relational": "2.1.0"
-        },
-        "compile": {
-          "bin/placeholder/Alura.WebAPI.DAL.Usuarios.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Alura.WebAPI.DAL.Usuarios.dll": {}
-        }
-      },
       "Alura.WebAPI.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -12145,11 +12130,6 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Alura.WebAPI.DAL.Usuarios/1.0.0": {
-      "type": "project",
-      "path": "../Alura.WebAPI.DAL.Usuarios/Alura.WebAPI.DAL.Usuarios.csproj",
-      "msbuildProject": "../Alura.WebAPI.DAL.Usuarios/Alura.WebAPI.DAL.Usuarios.csproj"
-    },
     "Alura.WebAPI.Model/1.0.0": {
       "type": "project",
       "path": "../Alura.WebAPI.Model/Alura.WebAPI.Model.csproj",
@@ -12163,7 +12143,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Alura.WebAPI.DAL.Usuarios >= 1.0.0",
       "Alura.WebAPI.Model >= 1.0.0",
       "Alura.WebAPI.Seguranca >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.0",
@@ -12205,9 +12184,6 @@
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "D:\\GitHub\\AluraAspNetCoreRestAPIs\\Alura.WebAPI\\Alura.WebAPI.DAL.Usuarios\\Alura.WebAPI.DAL.Usuarios.csproj": {
-              "projectPath": "D:\\GitHub\\AluraAspNetCoreRestAPIs\\Alura.WebAPI\\Alura.WebAPI.DAL.Usuarios\\Alura.WebAPI.DAL.Usuarios.csproj"
-            },
             "D:\\GitHub\\AluraAspNetCoreRestAPIs\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
               "projectPath": "D:\\GitHub\\AluraAspNetCoreRestAPIs\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj"
             },
