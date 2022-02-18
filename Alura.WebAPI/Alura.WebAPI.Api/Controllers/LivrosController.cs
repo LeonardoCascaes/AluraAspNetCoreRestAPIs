@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Alura.ListaLeitura.Api.Controllers
 {
 
-    //[Authorize]
+    [Authorize]
     [ApiController]
     [Route("api/[Controller]")]
     public class LivrosController : ControllerBase

@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Alura.WebAPI.WebApp.Formatters;
 using Alura.ListaLeitura.HttpClients;
 using System;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Alura.ListaLeitura.WebApp
 {
@@ -22,26 +23,21 @@ namespace Alura.ListaLeitura.WebApp
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AuthDbContext>(options => {
-                options.UseSqlServer(Configuration.GetConnectionString("AuthDB"));
-            });
-
-            services.AddIdentity<Usuario, IdentityRole>(options =>
-            {
-                options.Password.RequiredLength = 3;
-                options.Password.RequireNonAlphanumeric = false;
-                options.Password.RequireUppercase = false;
-                options.Password.RequireLowercase = false;
-            }).AddEntityFrameworkStores<AuthDbContext>();
-
-            services.ConfigureApplicationCookie(options => {
-                options.LoginPath = "/Usuario/Login";
-            });
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options => {
+                    options.LoginPath = "/Usuario/Login";
+                });
 
             services.AddHttpClient<LivroApiClient>(options =>
             {
                 options.BaseAddress = new Uri("http://localhost:6000/api/");
             });
+            services.AddHttpClient<AuthApiClient>(options =>
+            {
+                options.BaseAddress = new Uri("http://localhost:5000/api/");
+            });
+
+            services.AddHttpContextAccessor();
 
             services.AddMvc(opt => {
                 opt.OutputFormatters.Add(new LivroCsvFormatter());
